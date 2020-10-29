@@ -19,3 +19,10 @@ document.write(A+B);
 
 //Making sure the math for var expression worked.
 document.write(expression);
+
+//Testing a JS handler for page loading
+document.getElementById("currentTime").innerHTML = Date();
+
+function foobar() {
+    document.getElementById("currentTime").innerHTML = Date();
+} 
