@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope Time Functions</title>
+    <script src="./JS/main.js"></script>
+</head>
+<body>
+
+    <p  onclick="TimeGet()">Hello! Click me for a personalized message bout the time below!</p>
+    <p id="Time">Watch me change.</p>
+
+    <p>Care to flip a coin and try your luck?</p>
+    <p>The result is: <span id="coinResult"></span></p>
+    <button onclick="CoinFlip()">Flip!</button>
+    
+
+    <p>Are you a morning person or a night owl?</p>
+
+    <input type="radio" id="morning" value="Morning Person" name="Person">
+    <label for="Morning Person">Morning Person</label>
+    <br />
+
+    <input type="radio" id="night" value="Night Owl" name="Person">
+    <label for="Night Owl">Night Owl</label>
+    <br />
+
+    <input type="submit" value="Submit" onclick="judging()">
+
+    <p id = "Results"></p>
+
+    <br /> <br />
+
+    <p id="Time_of_day"></p>
+    <button onclick="Time_function()">Click here to get the time.</button>
+
+</body>
+</html>
