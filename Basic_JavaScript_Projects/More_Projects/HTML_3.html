@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data attribute practice</title>
+    <script src="./JavaScript/JavaScript_3.js"></script>
+</head>
+<body>
+    <h3>Here is a list of some of my favorite foods!</h3>
+    <p>Choose your favorite of the three below!</p>
+
+
+    <input type="radio" name="Food" data-day_to_eat = "Thursday" value="Thai" id = "Thai" class="food">
+    <label for="Thai">Thai Food</label><br />
+    <input type="radio" name="Food" data-day_to_eat = "Sunday" value="Italian" id="Italian" class="food">
+    <label for="Italian">Italian Food</label><br />
+    <input type="radio" name="Food" data-day_to_eat = "Tuesday" value="Mexican" id="Mexican" class="food">
+    <label for="Mexican">Mexican Food</label><br />
+
+    <input type="submit" value="submit" onclick="foodtalk()">
+
+    <p id="FoodResult"></p>
+    
+</body>
+</html>
