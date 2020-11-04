@@ -1,7 +1,7 @@
 /*Adding Color to the background*/
 /*Learned about creating checkered patterns and implemented a red/grey scheme*/
 body {
-  background: slategrey;
+  background: slategray;
   background-image: linear-gradient(90deg, rgba(255, 0, 50, 0.7) 50%, transparent 0),
                     linear-gradient(rgba(255, 0, 50, 0.7) 50%, transparent 0);
   background-size: 50px 50px;
@@ -48,6 +48,8 @@ div {
   height: 190px;
   margin: 0 auto;
   float: right;
+  padding-top: 60px;
+  font-weight: bold;
 }
 
 /*Styling for the pizza sizes*/
