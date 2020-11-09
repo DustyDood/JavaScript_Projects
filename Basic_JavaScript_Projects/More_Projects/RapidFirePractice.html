@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapid Fire Practice</title>
+    <link type="text/css" rel="stylesheet" href="./CSS/RapidFirePractice.css">
+    <script src="./JavaScript/RapidFirePractice.js" defer></script>
+</head>
+<body>
+    <nav id="navigation">
+        <a href="#GnarBox">Go to Gnar</a>
+    </nav>
+
+    <hr>
+
+    <h3>Fade-out Testing</h3>
+    <h1 id="gonezo">Hello! Watch as I...disappear!</h1>
+    <h2>Testing...</h2>
+
+    <h3>Phone Number form testing</h3>
+    <form name="formTest" onsubmit="return blankTest()">
+        <p>Please enter your phone number</p>
+        <input type="text" name="phoneNumber" id="phoneNumber"> <br />
+        <input type="submit" value="submit"> <br /><br />
+    </form>
+    
+    <h3>Click the button below to open a popup form in the bottom right!</h3>
+    <div class="sticky">
+        <button class="openSesame" onclick="andddOpen()">Open Form</button>
+    </div>
+
+    <form id="secondForm">
+        <h4>Contact Form</h4>
+        <label for="email">E-mail</label>
+        <input type="text" name="email" placeholder="Enter you e-mail">
+        <input type="submit" value="Submit">
+        <button class="closeSesame" onclick="closeItDown()">Close</button>
+        
+    </form>
+
+    <h3>Animation time!</h3>
+    <p id="colorsDuke">Watch as the background changes color!</p>
+
+    <h3>Zooming practice</h3>
+    <div id="GnarBox">
+        <img id="Gnar" src="./Images/Gnar.png" alt="Gnar!">
+    </div>
+
+    <h3>Automatic slide show of the same images</h3>
+    <div id="SlideshowTesting">
+        <img class="autoSlideshow" src="./Images/Gnar.png" alt="Gnar">
+        <img class="autoSlideshow" src="./Images/Mega_Gnar.png" alt="Mega Gnar">
+    </div>
+
+
+
+
+</body>
+</html>

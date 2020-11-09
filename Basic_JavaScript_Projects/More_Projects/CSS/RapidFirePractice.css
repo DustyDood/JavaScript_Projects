@@ -1,0 +1,98 @@
+/*Setting smooth scroll behavior*/
+html {
+    scroll-behavior: smooth;
+}
+
+/*Practicing with causing an element to fade-out!*/
+.fade-out {
+    opacity: 0;
+    transition-duration: .5s;
+    transition-delay: 1s;
+}
+
+/*I set this up if we want a fade when hovered, 
+but the above can now fade on load!
+.fade-out:hover {
+    opacity: 0;
+    transition-duration: .5s;
+}
+*/
+
+
+
+/*Pop up form*/
+#secondForm {
+    display: none;
+    position: fixed;
+    bottom:0;
+    right: 15px;
+    border: 3px solid black;
+    z-index: 9;
+    padding: 20px;
+}
+
+#secondForm h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Animation Practice*/
+#colorsDuke {
+    animation: rainbow 4s infinite;
+}
+
+@keyframes rainbow {
+    0% {background-color: red;}
+    15% {background-color: orange;}
+    30% {background-color: yellow; color: black;}
+    45% {background-color: green; }
+    60% {background-color: blue; color: white;}
+    75% {background-color: indigo; color: white;}
+    90% {background-color: violet;}
+    100% {background-color: red; color: black;}
+}
+
+/*Zooming Practice*/
+/*Shows Gnar transform into Mega Gnar!*/
+#Gnar {
+    width: 300px;
+    height: 300px;
+    animation: gnarGrow 2s forwards;
+    background-color: white;
+}
+
+@keyframes gnarGrow {
+    0% {transform: scale(1,1); opacity: 1;}
+    50% {transform: scale(1.2, 1.2); opacity: 0;}
+    100% {transform: scale(1,1); opacity: 1;}
+}
+
+#GnarBox {
+    width: 300px;
+    height: 300px;
+    background-image: url("../Images/Mega_Gnar.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/*Working with the slideshow*/
+#SlideshowTesting {
+    width: 400px;
+    height: 400px;
+}
+
+.autoSlideshow {
+    width: 100%;
+    height: 100%;
+}
+
+/*Working with sticky buttons*/
+/*I edited my old pop up form to become sticky!*/
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    text-align: right;
+}
